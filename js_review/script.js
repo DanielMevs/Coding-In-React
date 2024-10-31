@@ -272,4 +272,18 @@ const booksAfterUpdate = booksAfterDelete.map((book) =>
 booksAfterUpdate;
 */
 
-fetch("https://jsonplaceholder.typicode.com/todos/1");
+// fetch("https://jsonplaceholder.typicode.com/todos")
+//   .then((res) => res.json())
+//   .then((data) => console.log(data));
+
+console.log("jonas");
+
+async function getTodos() {
+  const result = await fetch("https://jsonplaceholder.typicode.com/todos");
+  const data = await result.json();
+  console.log(data);
+  return data;
+}
+
+const todos = getTodos();
+console.log(todos);
