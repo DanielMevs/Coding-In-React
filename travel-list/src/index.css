@@ -87,6 +87,7 @@ input {
   flex-direction: column;
   gap: 3.2rem;
   align-items: center;
+  overflow: hidden;
 }
 
 .actions button,
