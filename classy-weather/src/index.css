@@ -90,3 +90,15 @@ input:focus {
   font-size: 2.4rem;
   font-weight: 700;
 }
+
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  background-color: #222;
+}
